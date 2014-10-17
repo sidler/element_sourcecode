@@ -35,10 +35,11 @@ class class_element_sourcecode_admin extends class_element_admin implements inte
      *
      * @fieldType textarea
      * @fieldLabel sourcecode_code
+     * @blockEscaping
      *
      * @elementContentTitle
      */
-    private $intText;
+    private $strText;
 
 
 
@@ -59,15 +60,15 @@ class class_element_sourcecode_admin extends class_element_admin implements inte
     /**
      * @return string
      */
-    public function getIntText() {
-        return $this->intText;
+    public function getStrText() {
+        return $this->strText;
     }
 
     /**
      * @param string $intText
      */
-    public function setIntText($intText) {
-        $this->intText = $intText;
+    public function setStrText($intText) {
+        $this->strText = uniStrReplace("<br />", "\n", $intText);
     }
 
 
