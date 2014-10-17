@@ -17,4 +17,8 @@
         <module name="system" version="4.5" />
         <module name="pages" version="4.5" />
     </requiredModules>
+    <screenshots>
+        <screenshot path="screenshots/screen1.png" />
+        <screenshot path="screenshots/screen2.png" />
+    </screenshots>
 </package>
