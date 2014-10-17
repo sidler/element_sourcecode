@@ -4,9 +4,13 @@
         xsi:noNamespaceSchemaLocation="http://apidocs.kajona.de/xsd/package.xsd"
         >
     <title>sourcecode</title>
-    <description>Use this element to render formatted sourcecode. Therefore the element makes use of https://highlightjs.org. The sources are available at https://github.com/sidler/element_sourcecode</description>
-    <version>4.5</version>
-    <author>Kajona Team</author>
+    <description>
+        Use this element to render formatted sourcecode.
+        Therefore the element makes use of https://highlightjs.org.
+        The sources of the element are available at https://github.com/sidler/element_sourcecode
+    </description>
+    <version>0.1</version>
+    <author>lorddoc</author>
     <type>ELEMENT</type>
     <providesInstaller>TRUE</providesInstaller>
     <requiredModules>
